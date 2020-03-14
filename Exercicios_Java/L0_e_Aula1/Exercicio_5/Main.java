@@ -1,6 +1,15 @@
 public class Main {
     public static void main(String args[]){
-        System.out.println("Programação I\n  - Professor: Fernando Bevilacqua\n  - Aluno: Seu nome aqui\n  - Objetivo:\n        O objetivo dessa disciplina é compreender os conceitos fundamentais\n        do paradigma de programação orientada a objetos e aplicá-los no\n        desenvolvimento de soluções de software.\n  - Turno: Vespertino");
-        
+      for(int i = 1; i <= 100; i++){
+        System.out.print(i+ " java ");
+        if(i != 1){
+          for(int d = 1; d <= i; d++ ){
+            System.out.print("atrapalham ");
+          }
+          System.out.println("muita gente.");
+        }else{
+          System.out.println("atrapalha muita gente.");
+        }
+      }
     }
 }
